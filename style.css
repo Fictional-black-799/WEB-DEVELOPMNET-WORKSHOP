@@ -1,3 +1,21 @@
-.container{
-    ;
+.title{
+   
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+    font-size: 100px;
+}
+
+
+.title_2{
+font-size: 25px;
+}
+
+.inp{
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    border: 0px;
 }
