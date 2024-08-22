@@ -8,20 +8,19 @@ let main = () => {
     ran =   Math.floor(Math.random()*101)
     if (inp > ran) {
         alert("larger")
-        result.textContent = "larger"
-        sub.disabled =  true
-
+        result.textContent = " Your no. is larger"
+        
         
     } else if(inp < ran) {
         alert("smaller")
-        result.textContent = "smaller"
-
+        result.textContent = `Your no. is smaller`
+        
     }
     else{
         alert("succes")
         result.textContent = "Succeed"
         sub.style.visibility = "hidden"
-
+        
 
     }    
 }
